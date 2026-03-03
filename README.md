@@ -29,20 +29,19 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
       <b>Figure 1: Experimental Setup</b>
     </td>
     <td align="center">
-      <img src="asserts/wrist_sensor.jpg" width="300" alt="Sensor Style">
+      <img src="assets/wrist_sensor.jpg" width="300" alt="Sensor Style">
       <br>
       <b>Figure 2: 9-axis Motion Sensor</b>
     </td>
   </tr>
 </table>
-![wrist_sensor](asserts/wrist_sensor.jpg)
 
 ### 2.2 Logic Design
 * **Pace**: 3 seconds per cycle (high-intensity repetitive task).
 * **Task Branches**:
     * **Standard Task (Digit ≠ 3)**: Move "beans" directly into the ceramic bowl.
     * **Anomaly Task (Digit = 3)**: Move "washer" into the ceramic bowl first, then move "beans" into the ceramic bowl.
-![gif](asserts/demo.gif)
+![gif](assets/demo.gif)
 
 ---
 
