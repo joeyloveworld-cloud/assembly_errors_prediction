@@ -20,7 +20,8 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 | | Target Containers | Two ceramic bowls simulating the finished assembly area. |
 | **Visual Induction** | PC Terminal | Running the experimental program, randomly switching digits (0-9) every 3 seconds. |
 | **Sensor Node** | 9-axis IMU | Wrist-worn sensor collecting 3-axis Acceleration (Acc), Gyroscope (Gyro), and Euler Angles (Angle). |
-![wrist_sensor](wrist_sensor.jpg)
+
+![wrist_sensor](asserts/wrist_sensor.jpg)
 
 ### 2.2 Logic Design
 * **Pace**: 3 seconds per cycle (high-intensity repetitive task).
