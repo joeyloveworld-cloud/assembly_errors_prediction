@@ -2,13 +2,15 @@
 
 ## Abstract
 This research utilizes wearable sensor technology to monitor worker fatigue, explores the predictive capability of motion data for assembly risks, and validates the effectiveness of optimized rest strategies in reducing error rates.
-Logic Link: Wrist-worn Sensors → Fatigue Monitoring → Multimodal Hybrid Deep Learning → Assembly Error Prediction → Adaptive Intervention (AI-guided breaking in iso-temporal condition)
+> **Wrist-worn Sensor** $\rightarrow$ **Multimodal Hybrid Deep Learning** $\rightarrow$ **Fatigue Monitoring** $\rightarrow$ **Assembly Error Prediction** $\rightarrow$ **Adaptive Intervention** *(AI-guided rest scheduling in iso-temporal conditions)*
 
 ---
 
 ## 1. Research Objectives
-* **Predictive Modeling**: To verify whether wrist motion data (Acceleration, Angular Velocity, Orientation) can effectively predict assembly error risks within the next 5 minutes.
-* **Intervention Strategy Validation**: To compare the "Optimized Rest Strategy" with the "Traditional Fixed-Interval Rest," evaluating the former's advantages in alleviating fatigue and reducing assembly failures.
+
+* **Predictive Modeling**: To verify whether wrist motion data can effectively predict assembly error risks within the next 5 minutes.
+* **Intervention Strategy Validation**: To compare the **"AI-guided Rest Strategy Based on Dynamic Fatigue Metrics"** with the **"Traditional Fixed-Interval Rest,"** evaluating the former's advantages in alleviating fatigue and reducing assembly errors under iso-temporal conditions.
+* **Architecture & Interpretability Benchmark**: To evaluate tree-based models (e.g., XGBoost) against hybrid deep learning architectures (e.g., CNN-LSTM) for robustness, while leveraging **Explainable AI (XAI)**—such as Feature Importance and Attention Mechanisms—to ensure early-warning triggers are transparent.
 
 ---
 
@@ -38,7 +40,7 @@ Logic Link: Wrist-worn Sensors → Fatigue Monitoring → Multimodal Hybrid Deep
 </table>
 
 ### 2.2 Logic Design
-* **Pace**: 3 seconds per cycle (high-intensity repetitive task).
+* **Pace**: The screen will randomly generate a number between 0 and 9 every 3 seconds. (high-intensity repetitive task).
 * **Task Branches**:
     * **Standard Task (Digit ≠ 3)**: Move "beans" directly into the ceramic bowl.
     * **Anomaly Task (Digit = 3)**: Move "washer" into the ceramic bowl first, then move "beans" into the ceramic bowl.
@@ -67,7 +69,7 @@ Sensor data undergoes 15Hz low-pass filtering, outlier removal, and normalizatio
 * **Non-linear**: DFA-alpha ($DFA_\alpha$), etc.
 
 ### 4.2 Expected Outcomes
-1.  **Algorithmic Evaluation Framework**: Validating the effectiveness of composite motion features in predicting omission errors under high cognitive load; building and comparing static vs. temporal fatigue prediction models.
+1.  **Algorithmic Evaluation Framework**: Validating the effectiveness of composite motion features in predicting assembly errors under high cognitive load; building and comparing static vs. temporal fatigue prediction models.
 2.  **Adaptive Intervention Paradigm**: Proposing an adaptive rest algorithm that optimizes intervention timing without increasing total downtime, filling the gap between "fatigue monitoring" and "active intervention" in industry.
 
 ## 5. Proof of Concept (PoC)
