@@ -9,8 +9,8 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 ## 1. Research Objectives
 
 * **Predictive Modeling**: To verify whether wrist motion data can effectively predict assembly error risks within the next 5 minutes.
-* **Intervention Strategy Validation**: To compare the **"AI-guided Rest Strategy Based on Dynamic Fatigue Metrics"** with the **"Traditional Fixed-Interval Rest,"** evaluating the former's advantages in alleviating fatigue and reducing assembly errors under iso-temporal conditions.
-* **Architecture & Interpretability Benchmark**: To evaluate tree-based models (e.g., XGBoost) against hybrid deep learning architectures (e.g., CNN-LSTM) for robustness, while leveraging **Explainable AI (XAI)**—such as Feature Importance and Attention Mechanisms—to ensure early-warning triggers are transparent.
+* **Intervention Strategy Validation**: To compare the "AI-guided Rest Strategy Based on Dynamic Fatigue Metrics" with the "Traditional Fixed-Interval Rest," evaluating the former's advantages in alleviating fatigue and reducing assembly errors under iso-temporal conditions.
+* **Architecture & Interpretability Benchmark**: To evaluate tree-based models (e.g., XGBoost) against hybrid deep learning architectures (e.g., CNN-LSTM) for robustness, while leveraging **Explainable AI (XAI)** warning triggers are transparent.
 
 ---
 
@@ -48,7 +48,7 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 
 ---
 
-## 3. Experimental scenes Explanation 
+## 3. Experimental Scenes Explanation 
 
 ### Theoretical Background
 When performing highly repetitive tasks, the brain easily enters **"Autopilot"** mode. Over time, physiological and psychological fatigue accumulates, leading to a decline in **Vigilance**. At this point, if a "non-standard action" requiring extra attention appears, workers often make omissions or sequence errors due to inertia.
