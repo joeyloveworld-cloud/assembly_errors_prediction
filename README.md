@@ -26,7 +26,7 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 * **Task Branches**:
     * **Standard Task (Digit ≠ 3)**: Move "beans" directly into the ceramic bowl.
     * **Anomaly Task (Digit = 3)**: Move "washer" into the ceramic bowl first, then move "beans" into the ceramic bowl.
-
+![gif](asserts/demo.gif)
 ---
 
 ## 3. Experimental Rules and Workflow
