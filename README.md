@@ -102,4 +102,3 @@ Data collection for the first **3 participants** has been completed. After featu
   </tr>
 </table>
 
-> **Key Takeaway**: The **Feature Importance Analysis** highlights that **DFA-alpha** ($DFA_\alpha$) and **Z-axis Jerk_RMS** are the most significant predictors. This suggests that the degradation of movement smoothness and self-similarity is a leading indicator of cognitive fatigue and subsequent assembly omissions.
