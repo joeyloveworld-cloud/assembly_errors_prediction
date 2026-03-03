@@ -2,6 +2,7 @@
 
 ## Abstract
 This research utilizes wearable sensor technology to monitor worker fatigue, explores the predictive capability of motion data for assembly risks, and validates the effectiveness of optimized rest strategies in reducing error rates.
+Logic Link: Wrist-worn Sensors → Fatigue Monitoring → Multimodal Hybrid Deep Learning → Assembly Error Prediction → Adaptive Intervention (AI-guided breaking in iso-temporal condition)
 
 ---
 
