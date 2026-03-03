@@ -68,3 +68,38 @@ Sensor data undergoes 15Hz low-pass filtering, outlier removal, and normalizatio
 ### 4.2 Expected Outcomes
 1.  **Algorithmic Evaluation Framework**: Validating the effectiveness of composite motion features in predicting omission errors under high cognitive load; building and comparing static vs. temporal fatigue prediction models.
 2.  **Adaptive Intervention Paradigm**: Proposing an adaptive rest algorithm that optimizes intervention timing without increasing total downtime, filling the gap between "fatigue monitoring" and "active intervention" in industry.
+
+## 5. Proof of Concept (PoC)
+
+Data collection for the first **3 participants** has been completed. After feature engineering, the processed data was used to train an **XGBoost** model. Initial results successfully validate the core hypothesis: **"Motion features (IMU data) can effectively predict assembly error risks."**
+
+### Preliminary Model Performance Metrics:
+
+<table border="0">
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/Classification_Report.png" width="400" alt="Classification Report">
+      <br>
+      <b>Figure 3: Classification Report (focusing on Recall for Error class)</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/ROC_Curve.png" width="400" alt="ROC Curve">
+      <br>
+      <b>Figure 4: ROC Curve</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/PR_Curve.png" width="400" alt="PR-AUC Curve">
+      <br>
+      <b>Figure 5: PR-AUC Curve</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/Feature_Importance_Analysis.png" width="400" alt="Feature Importance">
+      <br>
+      <b>Figure 6: Feature Importance Analysis</b>
+    </td>
+  </tr>
+</table>
+
+> **Key Takeaway**: The **Feature Importance Analysis** highlights that **DFA-alpha** ($DFA_\alpha$) and **Z-axis Jerk_RMS** are the most significant predictors. This suggests that the degradation of movement smoothness and self-similarity is a leading indicator of cognitive fatigue and subsequent assembly omissions.
