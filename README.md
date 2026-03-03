@@ -48,7 +48,7 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 
 ---
 
-## 3. Experimental scences Explanation 
+## 3. Experimental scenes Explanation 
 
 ### Theoretical Background
 When performing highly repetitive tasks, the brain easily enters **"Autopilot"** mode. Over time, physiological and psychological fatigue accumulates, leading to a decline in **Vigilance**. At this point, if a "non-standard action" requiring extra attention appears, workers often make omissions or sequence errors due to inertia.
@@ -105,3 +105,9 @@ Data collection for the first **3 participants** has been completed. After featu
   </tr>
 </table>
 
+### 6. Future Roadmap
+
+* **Better Generalization**: Expand the dataset and use **Leave-One-Subject-Out (LOSO)** cross-validation to ensure the model works accurately for new users.
+
+* **Model Optimization**: Improve feature engineering and tuning to compare **Tree-based models** (XGBoost) with **Deep Learning** (CNN-LSTM) for better accuracy.
+* **System Integration**: Move from offline analysis to **real-time detection**, using fatigue data as dynamic **factors** for **AI scheduling** systems.
