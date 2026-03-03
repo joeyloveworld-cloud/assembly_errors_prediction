@@ -24,7 +24,7 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 <table border="0">
   <tr>
     <td align="center">
-      <img src="assets/experimental_setup.jpg" width="300" alt="Experimental Setup">
+      <img src="assets/setup.png" width="300" alt="Experimental Setup">
       <br>
       <b>Figure 1: Experimental Setup</b>
     </td>
