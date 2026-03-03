@@ -21,6 +21,20 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 | **Visual Induction** | PC Terminal | Running the experimental program, randomly switching digits (0-9) every 3 seconds. |
 | **Sensor Node** | 9-axis IMU | Wrist-worn sensor collecting 3-axis Acceleration (Acc), Gyroscope (Gyro), and Euler Angles (Angle). |
 
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="assets/experimental_setup.jpg" width="300" alt="Experimental Setup">
+      <br>
+      <b>Figure 1: Experimental Setup</b>
+    </td>
+    <td align="center">
+      <img src="asserts/wrist_sensor.jpg" width="300" alt="Sensor Style">
+      <br>
+      <b>Figure 2: 9-axis Motion Sensor</b>
+    </td>
+  </tr>
+</table>
 ![wrist_sensor](asserts/wrist_sensor.jpg)
 
 ### 2.2 Logic Design
