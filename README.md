@@ -10,7 +10,7 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 
 * **Predictive Modeling**: To verify whether wrist motion data can effectively predict assembly error risks within the next 5 minutes.
 * **Intervention Strategy Validation**: To compare the "AI-guided Rest Strategy Based on Dynamic Fatigue Metrics" with the "Traditional Fixed-Interval Rest," evaluating the former's advantages in alleviating fatigue and reducing assembly errors under iso-temporal conditions.
-* **Architecture & Interpretability Benchmark**: To evaluate tree-based models (e.g., XGBoost) against hybrid deep learning architectures (e.g., CNN-LSTM) for robustness, while leveraging **Explainable AI (XAI)** warning triggers are transparent.
+* **Architecture & Interpretability Benchmark**: To evaluate tree-based models (e.g., XGBoost) against hybrid deep learning architectures (e.g., CNN-LSTM) for robustness, while leveraging **Explainable AI (XAI)**, ensuring warning triggers are transparent.
 
 ---
 
