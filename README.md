@@ -80,7 +80,7 @@ Data collection for the first **3 participants** has been completed. After featu
     <td align="center" width="50%">
       <img src="assets/Classification_Report.png" width="400" alt="Classification Report">
       <br>
-      <b>Figure 3: Classification Report (focusing on Recall for Error class)</b>
+      <b>Figure 3: Classification Report</b>
     </td>
     <td align="center" width="50%">
       <img src="assets/ROC_Curve.png" width="400" alt="ROC Curve">
