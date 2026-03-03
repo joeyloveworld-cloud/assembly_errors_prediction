@@ -30,7 +30,6 @@ This research utilizes wearable sensor technology to monitor worker fatigue, exp
 ---
 
 ## 3. Experimental Rules and Workflow
-The experiment simulates a typical industrial assembly line. Participants must execute action sequences based on screen instructions:
 
 * **When digit is "3" (Simulated Special Condition)**:
     * Path: Iron Bowl (Washer) → Ceramic Bowl A; Iron Bowl (Bean) → Ceramic Bowl B.
