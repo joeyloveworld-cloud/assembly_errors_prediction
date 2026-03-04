@@ -1,4 +1,4 @@
-# Research on Assembly Error Prediction and Dynamic Rest Strategy Based on Motion Sensors
+# Dynamic Human Fatigue Prediction for Smart Production Scheduling
 
 ## 📌 Quick Overview
 
