@@ -129,6 +129,6 @@ To support the verification of the preliminary findings, the core implementation
 
 * **Dataset Sample**: [processed_features_sample.csv](./processed_features_sample.csv) — A 1-hour segment of feature-engineered IMU data.
 * **Source Code**:
-    * `src/03_preprocessing.py`: Low-pass filtering (Butterworth),Valid task segmentation,Z-score normalization.
-    * `src/05_feature_engineering.py`: Calculation of acceleration and gyroscope magnitudes,Sliding window feature extraction (Statistical, Jerk, Peaks, DFA-alpha),Target label generation based on future error occurrences.
-    * `src/06_model_training.py`: XGBoost training pipeline and performance evaluation.
+    * [`src/03_preprocessing.py`](./src/03_preprocessing.py): Low-pass filtering (Butterworth),Valid task segmentation,Z-score normalization.
+    * [`src/05_feature_engineering.py`](./src/05_feature_engineering.py): Calculation of acceleration and gyroscope magnitudes,Sliding window feature extraction (Statistical, Jerk, Peaks, DFA-alpha),Target label generation based on future error occurrences.
+    * [`src/06_model_training.py`](./src/06_model_training.py): XGBoost training pipeline and performance evaluation.
