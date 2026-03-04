@@ -127,7 +127,7 @@ Data collection for the first **3 participants** has been completed. After featu
 
 To support the verification of the preliminary findings, the core implementation and a representative data sample have been uploaded to this repository:
 
-* **Dataset Sample**: [processed_features_sample.csv](./processed_features_sample.csv) — An 1-hour segment of feature-engineered IMU data.
+* **Dataset Sample**: [processed_features_sample.csv](./processed_features_sample.csv) — A 1-hour segment of feature-engineered IMU data.
 * **Source Code**:
     * [`src/03_preprocessing.py`](./src/03_preprocessing.py): Low-pass filtering (Butterworth),Valid task segmentation,Z-score normalization.
     * [`src/05_feature_engineering.py`](./src/05_feature_engineering.py): Calculation of acceleration and gyroscope magnitudes,Sliding window feature extraction (Statistical, Jerk, Peaks, DFA-alpha),Target label generation based on future error occurrences.
