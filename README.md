@@ -9,9 +9,9 @@ This project investigates whether wrist-worn motion data can be used to predict 
 
 ## 1. Research Objectives
 
-* **Predictive Modeling**: To verify whether wrist motion data can effectively predict assembly error risks within the next 5 minutes.
-* **Intervention Strategy Validation**: To compare the "AI-guided Rest Strategy Based on Dynamic Fatigue Metrics" with the "Traditional Fixed-Interval Rest," evaluating the former's advantages in alleviating fatigue and reducing assembly errors under iso-temporal conditions.
-* **Architecture & Interpretability Benchmark**: To evaluate tree-based models (e.g., XGBoost) against hybrid deep learning architectures (e.g., CNN-LSTM) for robustness, while leveraging **Explainable AI (XAI)**, ensuring warning triggers are transparent.
+* **Predictive Modeling**: To assess whether wrist motion data can reliably predict assembly error risk within a 5-minute horizon.
+* **Intervention Strategy Validation**: To evaluate the effectiveness of an AI-guided, fatigue-adaptive rest strategy compared with traditional fixed-interval rest under equal total rest time.
+* **Architecture & Interpretability Benchmark**: To compare the robustness of tree-based and hybrid deep learning models, while ensuring prediction transparency through Explainable AI.
 
 ---
 
