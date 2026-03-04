@@ -21,7 +21,7 @@ This project investigates whether wrist-worn motion data can be used to predict 
 | Category | Device/Component | Description |
 | :--- | :--- | :--- |
 | **Material System** | Source Containers | Two iron bowls containing "washers" and "beans" respectively. |
-| | Target Containers | Two ceramic bowls simulating the finished assembly area. |
+| | Target Containers | Two white bowls simulating the finished assembly area. |
 | **Visual Induction** | PC Terminal | Running the experimental program, randomly switching digits (0-9) every 3 seconds. |
 | **Sensor Node** | 9-axis IMU | Wrist-worn sensor collecting 3-axis Acceleration (Acc), Gyroscope (Gyro), and Euler Angles (Angle). |
 
@@ -43,8 +43,8 @@ This project investigates whether wrist-worn motion data can be used to predict 
 ### 2.2 Logic Design
 * **Pace**: The screen will randomly generate a number between 0 and 9 every 3 seconds. (high-intensity repetitive task).
 * **Task Branches**:
-    * **Standard Task (Digit ≠ 3)**: Move "beans" directly into the ceramic bowl.
-    * **Anomaly Task (Digit = 3)**: Move "washer" into the ceramic bowl first, then move "beans" into the ceramic bowl.
+    * **Standard Task (Digit ≠ 3)**: Move "beans" directly into the white bowl.
+    * **Anomaly Task (Digit = 3)**: Move "washer" into the white bowl first, then move "beans" into the white bowl.
 ![gif](assets/demo.gif)
 
 ---
