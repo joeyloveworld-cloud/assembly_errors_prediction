@@ -1,6 +1,6 @@
 # Research on Assembly Error Prediction and Dynamic Rest Strategy Based on Motion Sensors
 
-## 📌 Quick Overview (≈ 60 sec)
+## 📌 Quick Overview
 
 This project investigates whether wrist-worn motion data can be used to predict near-term assembly error risk, and whether dynamically timed micro-breaks can reduce errors without increasing total rest time. An assembly-like experimental setup is designed to simulate real production conditions, combining continuous IMU-based motion capture, feature extraction, predictive modeling, and initial proof-of-concept results. Figures and section headers provide a guided overview of the experimental logic and findings.
 > **Wrist-worn Sensor(IMU)** $\rightarrow$ **Multimodal Hybrid Deep Learning** $\rightarrow$ **Fatigue Monitoring** $\rightarrow$ **Assembly Error Prediction** $\rightarrow$ **Adaptive Intervention** *(AI-guided rest scheduling in iso-temporal conditions)*
