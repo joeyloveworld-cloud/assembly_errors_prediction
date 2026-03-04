@@ -127,7 +127,7 @@ Data collection for the first **3 participants** has been completed. After featu
 
 To support the verification of the preliminary findings, the core implementation and a representative data sample have been uploaded to this repository:
 
-* **Dataset Sample**: [`/data/processed_features_sample.csv`](./processed_features_sample.csv) — A 1-hour segment of feature-engineered IMU data.
+* **Dataset Sample**: [processed_features_sample.csv](./processed_features_sample.csv) — A 1-hour segment of feature-engineered IMU data.
 * **Source Code**:
     * `src/01_preprocessing.py`: Signal filtering (15Hz Butterworth) and cleaning.
     * `src/02_feature_engineering.py`: Sliding window extraction for $DFA_\alpha$ and $Jerk$ metrics.
