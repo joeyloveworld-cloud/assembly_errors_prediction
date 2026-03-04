@@ -120,3 +120,17 @@ Data collection for the first **3 participants** has been completed. After featu
 * **Integration into Real Production Systems**
 * **Link to Scheduling Algorithms**
 * **Larger Scale Validation**
+
+---
+
+## 📂 Reproducibility & Resources
+
+To support the verification of the preliminary findings, the core implementation and a representative data sample have been uploaded to this repository:
+
+* **Dataset Sample**: [`/data/processed_features_sample.csv`](./processed_features_sample.csv) — A 1-hour segment of feature-engineered IMU data.
+* **Source Code**:
+    * `src/01_preprocessing.py`: Signal filtering (15Hz Butterworth) and cleaning.
+    * `src/02_feature_engineering.py`: Sliding window extraction for $DFA_\alpha$ and $Jerk$ metrics.
+    * `src/03_model_training.py`: XGBoost training pipeline and performance evaluation.
+
+> **Note**: For privacy and intellectual property reasons, the complete longitudinal dataset is currently restricted. Please contact the author for further academic collaboration or full-scale validation inquiries.
