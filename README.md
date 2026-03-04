@@ -54,10 +54,10 @@ This project investigates whether wrist-worn motion data can be used to predict 
 ### Theoretical Background
 When performing highly repetitive tasks, the brain easily enters **"Autopilot"** mode. Over time, physiological and psychological fatigue accumulates, leading to a decline in **Vigilance**. At this point, if a "non-standard action" requiring extra attention appears, workers often make omissions or sequence errors due to inertia.
 
-### Industrial scene: Automotive Hood Seal Installation Line
-* **Scenario Description**: A worker installs a standard seal every 15 seconds (corresponding to the "Digit ≠ 3" task). Due to the mechanical nature, it relies purely on muscle memory.
-* **Anomaly Trigger**: Occasionally, a "Luxury Version" chassis appears, requiring a special adhesive to be applied before the seal (corresponding to the "Digit = 3" task).
-* **Error Risk**: After working for 2 hours without rest, the worker may "see but not perceive" the luxury chassis due to deep fatigue, directly applying the seal by muscle memory and omitting the adhesive step.
+### Industrial Example: Car Part Assembly Line
+* **Scenario Description**: A worker installs a **rubber seal** (protective strip) on a **car hood** (engine cover) every 15 seconds. This is a highly repetitive task that relies on muscle memory.
+* **Special Task (The Change)**: Occasionally, a "Luxury Model" car arrives. For this specific car, the worker must apply **special glue** (adhesive) before installing the seal.
+* **Error Risk**: After 2 hours of continuous work, the worker becomes very tired. Due to deep fatigue, their brain might "see" the luxury car but fail to react. They might follow their muscle memory and install the seal **without** the glue, skipping the extra step.
 
 ---
 
