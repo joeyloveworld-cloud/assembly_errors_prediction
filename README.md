@@ -54,10 +54,16 @@ This project investigates whether wrist-worn motion data can be used to predict 
 ### Theoretical Background
 When performing highly repetitive tasks, the brain easily enters **"Autopilot"** mode. Over time, physiological and psychological fatigue accumulates, leading to a decline in **Vigilance**. At this point, if a "non-standard action" requiring extra attention appears, workers often make omissions or sequence errors due to inertia.
 
-### Industrial Example: Car Part Assembly Line
+### Industrial Example 1: Car Part Assembly Line
 * **Scenario Description**: A worker installs a **rubber seal** (protective strip) on a **car hood** (engine cover) every 15 seconds. This is a highly repetitive task that relies on muscle memory.
 * **Special Task (The Change)**: Occasionally, a "Luxury Model" car arrives. For this specific car, the worker must apply **special glue** (adhesive) before installing the seal.
 * **Error Risk**: After 2 hours of continuous work, the worker becomes very tired. Due to deep fatigue, their brain might "see" the luxury car but fail to react. They might follow their muscle memory and install the seal **without** the glue, skipping the extra step.
+
+### Industrial Example 2: Electronics Assembly Line
+
+* **Scenario Description:** A worker installs a heat sink (cooling metal piece) on standard circuit boards over and over. This is a fast, highly repetitive hand movement.
+* **Special Task (The Change):** Occasionally, a "High-Performance" board arrives on the line. For this special board, the worker must manually apply a drop of thermal paste (cooling gel)  **before** installing the heat sink.
+* **Error Risk:** After hours of doing the exact same standard motion, the worker experiences cognitive fatigue. They might just snap the heat sink on directly, skipping the crucial thermal paste step (an omission error).
 
 ---
 
