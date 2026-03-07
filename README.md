@@ -123,6 +123,20 @@ Data collection for the first **3 participants** has been completed. After featu
 
 ---
 
+### 8. Literature Review & Evidence Base
+
+Extensive recent literature validates that wrist sensors (IMU) can successfully predict error risks:
+
+* **Kazuo Yano** (**2009**, **Hitachi Research**) proved that the Zero-Crossing Rate (ZCR) of wrist accelerometers effectively measures human energy levels.
+* **Zhang et al.** (**2021**, **Automation in Construction**) achieved 94% accuracy in detecting worker fatigue based on IMU jerk features.
+* **Bangaru et al.** (**2022**, **Sensors**) demonstrated that wearable IMUs drastically outperform cardiovascular metrics in predicting physical fatigue, achieving over 92% accuracy compared to just 51% using heart rate. 
+* **Khan et al.** (**2025**, **ITcon**) achieved over 90% accuracy in fatigue classification using wearable sensors across diverse physical conditions.
+* **Albarrán Morillo et al.** (**2026**, **Safety Science**) achieved a high F1 score of 0.8793 in predicting worker fatigue using kinematic indicators.
+
+A recent systematic review (**Naranjo et al.**, **2025**, **Sensors**) highlights the transformative potential of these technologies, noting that implementing wearable sensors can reduce workplace injuries by **25-30%**, increase productivity by **15-20%**, and decrease error rates in precision tasks by **35-40%**. However, the study also emphasizes that most current systems remain restricted to **passive data collection and early warning**, identifying a critical need for **AI-driven proactive interventions** to bridge the existing productivity gap.
+
+---
+
 ## 📂 Reproducibility & Resources
 
 To support the verification of the preliminary findings, the core implementation and a representative data sample have been uploaded to this repository:
