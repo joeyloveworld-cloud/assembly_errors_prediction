@@ -45,7 +45,9 @@ This project investigates whether wrist-worn motion data can be used to predict 
 * **Task Branches**:
     * **Standard Task (Digit ≠ 3)**: Move "beans" directly into the white bowl.
     * **Anomaly Task (Digit = 3)**: Move "washer" into the white bowl first, then move "beans" into the white bowl.
-![gif](assets/demo.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/joeyloveworld-cloud/assembly_errors_prediction/main/assets/demo.gif" width="100%" alt="Experiment Demo">
+</p>
 
 ---
 
