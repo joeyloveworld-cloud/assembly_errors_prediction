@@ -66,6 +66,8 @@ When performing highly repetitive tasks, the brain easily enters **"Autopilot"**
 * **Special Task (The Change):** Occasionally, a "High-Performance" board arrives on the line. For this special board, the worker must manually apply a drop of thermal paste (cooling gel)  **before** installing the heat sink.
 * **Error Risk:** After hours of doing the exact same standard motion, the worker experiences cognitive fatigue. They might just snap the heat sink on directly, skipping the crucial thermal paste step (an omission error).
 
+Full automation is expensive and rigid. Humans are still used for these "flexible" tasks because they can adapt to different models faster than a robot can be reprogrammed. Therefore, keeping those humans error-free is more valuable than ever.
+
 ---
 
 ## 4. Data Processing and Expected Results
