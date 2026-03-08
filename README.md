@@ -55,6 +55,8 @@ https://github.com/user-attachments/assets/5bfcea5f-396f-443d-8789-5b89ceee4600
 ### Theoretical Background
 When performing highly repetitive tasks, the brain easily enters **"Autopilot"** mode. Over time, physiological and psychological fatigue accumulates, leading to a decline in **Vigilance**. At this point, if a "non-standard action" requiring extra attention appears, workers often make omissions or sequence errors due to inertia.
 
+The primary goal of this experiment is to reliably quantify this underlying physiological state—fatigue—using low-cost, non-invasive methods. While there are countless variations of industrial assembly lines, the fundamental mechanism of cumulative worker fatigue remains universal. By modeling this fatigue using features extracted from wearable Inertial Measurement Units (IMUs), we can develop a highly scalable solution with extensive applications across diverse manufacturing environments.
+
 ### Industrial Example 1: Car Part Assembly Line
 * **Scenario Description**: A worker installs a **rubber seal** (protective strip) on a **car hood** (engine cover) every 15 seconds. This is a highly repetitive task that relies on muscle memory.
 * **Special Task (The Change)**: Occasionally, a "Luxury Model" car arrives. For this specific car, the worker must apply **special glue** (adhesive) before installing the seal.
