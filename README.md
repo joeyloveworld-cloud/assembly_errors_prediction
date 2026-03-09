@@ -86,7 +86,7 @@ Sensor data undergoes 15Hz low-pass filtering, outlier removal, and normalizatio
 
 ## 5. Proof of Concept (PoC)
 
-Data collection for the first **3 participants** has been completed. After feature engineering, the processed data was used to train an **XGBoost** model. Initial results successfully validate the core hypothesis: **"Motion features (IMU data) can effectively predict assembly error risks."**
+Data collection for the first **3 participants** has been completed. After feature engineering, the processed data was used to train an **XGBoost** model, utilizing a 5-minute sliding window of historical data to predict the likelihood of assembly errors in the subsequent 5-minute interval. preliminary results successfully validate the core hypothesis: **"Motion features (IMU data) can effectively predict assembly error risks."**
 
 ### Preliminary Model Performance Metrics:
 
